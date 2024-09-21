@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Tirthrajm:$HF_TOKEN@huggingface.co/spaces/Tirthrajm/Search_Engine_Llm main
+        run: git push https://Tirthrajm:$HF_TOKEN@huggingface.co/spaces/Tirthrajm/Tirthrajm/Search_Engine_Llm main
